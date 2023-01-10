@@ -11,6 +11,6 @@ def solveQuadraticEquation(a, b, c):
     elif (discriminant == 0):
         root1 = root2 = -b / (2 * a)
     else:
-        return [1]
+        return []
 
     return [root1, root2]
